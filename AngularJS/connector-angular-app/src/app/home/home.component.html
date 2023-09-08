@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge">
+  <meta
+    name="Wonders of Nature"
+    content="Wonders of Nature is a website where everyone who enjoys nature can view, discuss, rate and upload nature photograhs."
+  />
+
+  <!-- Always include this line of code!!! -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script src="js/search query.js">
+  </script>
+
+  <title>Wonders of Nature</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <section class="header">
+        <h1 class="header-title">Wonders of Nature</h1>
+    </section>
+
+    <section class="subheader">
+      <button class="signin-Register-1" type="button" onclick="myButton.click()"><a href="signin.html">Sign In / Register</a></button>
+      <div class="siteSubheaderSection">
+        <div class="siteSubheader">
+          <section
+            class="main-nav-link:link, main-nav-link:visited, main-nav-link:hover, main-nav-link:active, main-nav-link.nav-cta:hover, main-nav-link.nav-cta:active">
+            <ul>
+              <li><a href="aboutus.html" class="link-list">About Us</a></li>
+              <li><a href="discussions.html" class="link-list">Discussions</a></li>
+              <li><a href="ratings.html" class="link-list">Ratings</a></li>
+            </ul>
+          </section>
+          <div class="siteSearch">
+            <form id="form" role="search">
+              <input type="search" id="query" name="q"
+               placeholder="Search..."
+               aria-label="Search through site content" />
+              <button class="search-bar" type="button" onclick="myButton.click()">
+                <svg class="svg-search" viewBox="0 0 1024 1024">
+                  <path class="path1"
+                    d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z">
+                  </path>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="grid">
+    <div class="grid-post1">
+      <div>
+        <h2>Most Popular posts</h2>
+        <h3>Enchanting lake</h3>
+        <img src="img/Altja_jägi_Lahemaal.jpg" class="post-image" alt="Photo of a lake" />
+        <section class="post-grid-box">
+          <div>
+            <p class="post-grid-text">Fusce et sagittis nibh, et congue metus.
+              Fusce finibus ex nisi, nec facilisis mi
+              feugiat quis.
+            </p>
+          </div>
+        </section>
+        <h3 class="popular-post-header">Beautiful Mountain Scenery</h3>
+        <img src="img/photo-1610878180933-123728745d22.jpg" class="post-image-2" alt="Photo of a mountain." />
+        <section class="post-grid-box-1">
+          <div>
+            <p class="post-grid-text">Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Sed vitae tristique massa.
+            </p>
+          </div>
+        </section>
+        <h3 class="popular-post-header-1">Intriguing Shot</h3>
+        <img src="img/photo-1471879832106-c7ab9e0cee23.jpg" class="post-image-1" alt="Photo of a raindrop on a plant" />
+        <section class="post-grid-box-2">
+          <div>
+            <p class="post-grid-text">
+              Donec pellentesque orci at
+              varius finibus. Suspendisse
+              vel arcu at augue luctus
+              fringilla.
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+    </section>
+
+    <section class="grid">
+      <div class="grid-post2">
+        <div>
+          <h2>Reviews</h2>
+          <h3>Chris Burkard</h3>
+          <img src="photographers/Chris_Burkard.jpg" class="home-reviews-img" alt="Photo of a photographer" />
+          <section class="review-grid-box-1">
+            <div>
+              <p class="post-grid-text">
+                Vivamus ut aliquet diam. In feugiat
+                enim justo, nec mollis nunc
+                pharetra et.
+              </p>
+            </div>
+          </section>
+          <h3 class="review-header">Ami Vitale</h3>
+          <img src="photographers/Ami-Vitale-2020-headshot.jpg" class="home-reviews-img-1" alt="Photo of a photographer" />
+          <section class="review-grid-box-2">
+            <div>
+              <p class="post-grid-text">
+                Duis finibus sem ac interdum condimentum. Ut
+                vestibulum porttitor lorem, sit amet efficitur
+                est vestibulum non.
+              </p>
+            </div>
+          </section>
+          <h3 class="review-header-1">Will Burrard-Lucas</h3>
+          <img src="photographers/Will-Burrard-Lucas-liuwa-1-scaled-e1586168476680.jpg" class="home-reviews-img-2"
+            alt="Photo of a photographer" />
+          <section class="review-grid-box">
+            <div>
+              <p class="post-grid-text">
+                Sed finibus mi sed risus porttitor, nec
+                tristique sem hendrerit.
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="grid-post3">
+        <h2>Features</h2>
+        <h3 class="h3-grid">As seen on:</h3>
+        <img class="home-features-img" src="gallery/forbes_1200x1200.jpg" alt="Photo of Forbes logo" />
+        <p class="features-p">Forbes</p>
+        <img class="home-features-img" src="gallery/CNN_International_logo.svg.png" alt="Photo of CNN logo" />
+        <p class="features-p">
+          CNN
+        </p>
+        <img class="home-features-img" src="gallery/Fox_News_Channel_logo.svg.png" alt="Photo of Fox News logo" />
+        <p class="features-p">
+          Fox News
+        </p>
+        <img class="home-features-img" src="gallery/1200px-Wired_logo.svg.png" alt="Photo of Wired logo" />
+        <p class="features-p">
+          Wired
+        </p>
+        <img class="home-features-img" src="gallery/download.jpg" alt="Photo of a newspaper" />
+        <p class="features-p">
+          WebUser
+        </p>
+      </div>
+    </section>
+      </div>
+    </div>
+  </section>
+  </main>
+
+    <footer>
+      <section id="footer-newsletter">
+        <img src="img/envelope.svg" class="icon-env" alt="Envelope"/>
+        <p class="header-p">Sign up for our weekly newsletter!</p>
+      </section>
+      <section id="social-media-link">
+        <p class="link-p">
+          Follow us here:
+        </p>
+        <ul>
+          <li><img src="img/youtube-logo.svg" class="icons" alt="youtube" /></li>
+          <li><img src="img/twitter-logo.svg" class="icons" alt="twitter" /></li>
+          <li><img src="img/facebook-logo.svg" class="icons" alt="facebook" /></li>
+          <li><img src="img/translate.svg" class="icons" alt="translate" /></li>
+          <li><img src="img/instagram-logo.svg" class="icons" alt="instagram" /></li>
+        </ul>
+      </section>
+      <secion class="copyright">
+        <p class="copyright">
+        Copyright &copy; TechMastery 2025, All rights reserved.
+        </p>
+      </secion>
+    </footer>
+</body>
+</html>
