@@ -1,77 +1,64 @@
-ServerName	DatabaseName	DatabaseFileName	FileType	TimeDataCollected	CounterName	AggregatorType	Value	
-8cf808bf3e50	model_msdb			15/08/2022 17:01	DCS	Mean	5.33	
-8cf808bf3e50	model_msdb			15/08/2022 17:01	DCS	Occurence	19	
-8cf808bf3e50	model_msdb			15/08/2022 17:01	DCS	Variance	0	
-8cf808bf3e50	model_msdb			15/08/2022 17:01	DCS	Max	5.33	
-8cf808bf3e50	model_replicatedmaster			15/08/2022 17:01	DCS	Mean	2.73	
-8cf808bf3e50	model_replicatedmaster			15/08/2022 17:01	DCS	Occurence	19	
-8cf808bf3e50	model_replicatedmaster			15/08/2022 17:01	DCS	Variance	0	
-8cf808bf3e50	model_replicatedmaster			15/08/2022 17:01	DCS	Max	2.73	
-8cf808bf3e50	MyWebAPIDB			15/08/2022 17:01	DCS	Mean	2.17	
-8cf808bf3e50	MyWebAPIDB			15/08/2022 17:01	DCS	Occurence	19	
-8cf808bf3e50	MyWebAPIDB			15/08/2022 17:01	DCS	Variance	0	
-8cf808bf3e50	MyWebAPIDB			15/08/2022 17:01	DCS	Max	2.17	
-8cf808bf3e50	MyWebAPIDB			15/08/2022 17:01	DCP	Mean	0	
-8cf808bf3e50	MyWebAPIDB			15/08/2022 17:01	DCP	Occurence	18	
-8cf808bf3e50	MyWebAPIDB			15/08/2022 17:01	DCP	Variance	0	
-8cf808bf3e50	MyWebAPIDB			15/08/2022 17:01	DCP	Max	0	
-8cf808bf3e50				15/08/2022 17:01	IM	Mean	4096	
-8cf808bf3e50				15/08/2022 17:01	IM	Occurence	19	
-8cf808bf3e50				15/08/2022 17:01	IM	Variance	0	
-8cf808bf3e50				15/08/2022 17:01	IM	Max	4096	
-8cf808bf3e50				15/08/2022 17:01	IMP	Mean	100	
-8cf808bf3e50				15/08/2022 17:01	IMP	Occurence	19	
-8cf808bf3e50				15/08/2022 17:01	IMP	Variance	0	
-8cf808bf3e50				15/08/2022 17:01	IMP	Max	100	
-8cf808bf3e50				15/08/2022 17:01	ICP	Mean	6.894737	
-8cf808bf3e50				15/08/2022 17:01	ICP	Occurence	19	
-8cf808bf3e50				15/08/2022 17:01	ICP	Variance	18.409971	
-8cf808bf3e50				15/08/2022 17:01	ICP	Max	17	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FRM	Mean	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FRM	Occurence	18	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FRM	Variance	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FRM	Max	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FWM	Mean	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FWM	Occurence	18	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FWM	Variance	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FWM	Max	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FNW	Mean	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FNW	Occurence	18	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FNW	Variance	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FNW	Max	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FNR	Mean	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FNR	Occurence	18	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FNR	Variance	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FNR	Max	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FRL	Mean	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FRL	Occurence	18	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FRL	Variance	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FRL	Max	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FWL	Mean	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FWL	Occurence	18	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FWL	Variance	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB.mdf	ROWS	15/08/2022 17:01	FWL	Max	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FRM	Mean	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FRM	Occurence	18	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FRM	Variance	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FRM	Max	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FWM	Mean	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FWM	Occurence	18	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FWM	Variance	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FWM	Max	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FNW	Mean	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FNW	Occurence	18	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FNW	Variance	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FNW	Max	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FNR	Mean	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FNR	Occurence	18	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FNR	Variance	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FNR	Max	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FRL	Mean	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FRL	Occurence	18	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FRL	Variance	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FRL	Max	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FWL	Mean	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FWL	Occurence	18	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FWL	Variance	0	
-8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FWL	Max	0	
+ServerName,DatabaseName,DatabaseFileName,FileType,TimeDataCollected,CounterName,AggregatorType,Value
+8cf808bf3e50,model_msdb,,15/08/2022 17:01,DCS,Mean,5.33
+8cf808bf3e50,model_msdb,,15/08/2022 17:01,DCS,Occurrence,19
+8cf808bf3e50,model_msdb,,15/08/2022 17:01,DCS,Variance,0
+8cf808bf3e50,model_msdb,,15/08/2022 17:01,DCS,Max,5.33
+8cf808bf3e50,model_replicatedmaster,,15/08/2022 17:01,DCS,Mean,2.73
+8cf808bf3e50,model_replicatedmaster,,15/08/2022 17:01,DCS,Occurrence,19
+8cf808bf3e50,model_replicatedmaster,,15/08/2022 17:01,DCS,Variance,0
+8cf808bf3e50,model_replicatedmaster,,15/08/2022 17:01,DCS,Max,2.73
+8cf808bf3e50,MyWebAPIDB,,15/08/2022 17:01,DCS,Mean,2.17
+8cf808bf3e50,MyWebAPIDB,,15/08/2022 17:01,DCS,Occurrence,19
+8cf808bf3e50,MyWebAPIDB,,15/08/2022 17:01,DCS,Variance,0
+8cf808bf3e50,MyWebAPIDB,,15/08/2022 17:01,DCS,Max,2.17
+8cf808bf3e50,MyWebAPIDB,,15/08/2022 17:01,DCP,Mean,0
+8cf808bf3e50,MyWebAPIDB,,15/08/2022 17:01,DCP,Occurrence,18
+8cf808bf3e50,MyWebAPIDB,,15/08/2022 17:01,DCP,Variance,0
+8cf808bf3e50,MyWebAPIDB,,15/08/2022 17:01,DCP,Max,0
+8cf808bf3e50,15/08/2022 17:01,IM,Mean,4096
+8cf808bf3e50,15/08/2022 17:01,IM,Occurrence,19
+8cf808bf3e50,15/08/2022 17:01,IM,Variance,0
+8cf808bf3e50,15/08/2022 17:01,IM,Max,4096
+8cf808bf3e50,15/08/2022 17:01,IMP,Mean,100
+8cf808bf3e50,15/08/2022 17:01,IMP,Occurrence,19
+8cf808bf3e50,15/08/2022 17:01,IMP,Variance,0
+8cf808bf3e50,15/08/2022 17:01,IMP,Max,100
+8cf808bf3e50,15/08/2022 17:01,ICP,Mean,6.894737
+8cf808bf3e50,15/08/2022 17:01,ICP,Occurrence,19
+8cf808bf3e50,15/08/2022 17:01,ICP,Variance,18.409971
+8cf808bf3e50,15/08/2022 17:01,ICP,Max,
+8cf808bf3e50,15/08/2022 17:01,IMP,Variance,0
+8cf808bf3e50,15/08/2022 17:01,IMP,Max,100
+8cf808bf3e50,15/08/2022 17:01,ICP,Mean,6.894737
+8cf808bf3e50,15/08/2022 17:01,ICP,Occurrence,19
+8cf808bf3e50,15/08/2022 17:01,ICP,Variance,18.409971
+8cf808bf3e50,15/08/2022 17:01,ICP,Max,17
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FRM,Mean,0
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FRM,Occurrence,18
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FRM,Variance,0
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FRM,Max,0
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FWM,Mean,0
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FWM,Occurrence,18
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FWM,Variance,0
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FWM,Max,0
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FNW,Mean,0
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FNW,Occurrence,18
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FNW,Variance,0
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FNW,Max,0
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FNR,Mean,0
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FNR,Occurrence,18
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FNR,Variance,0
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FNR,Max,0
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FRL,Mean,0
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FRL,Occurrence,18
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FRL,Variance,0
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FRL,Max,0
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FWL,Mean,0
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FWL,Occurrence,18
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB.mdf,ROWS,15/08/2022 17:01,FWL,Variance,0
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB_log.ldf,LOG,15/08/2022 17:01,FRM,Mean,0
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB_log.ldf,LOG,15/08/2022 17:01,FRM,Occurrence,18
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB_log.ldf,LOG,15/08/2022 17:01,FRM,Variance,0
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB_log.ldf,LOG,15/08/2022 17:01,FRM,Max,0
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPIDB_log.ldf,LOG,15/08/2022 17:01,FWM,Mean,0
+8cf808bf3e50,MyWebAPIDB,/var/opt/mssql/data/MyWebAPID
