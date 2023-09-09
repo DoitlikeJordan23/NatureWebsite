@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http'; // Add this import
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,6 +21,7 @@ import { RatingsComponent } from './ratings/ratings.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule, // Include HttpClientModule here
     AppRoutingModule
   ],
   providers: [],
