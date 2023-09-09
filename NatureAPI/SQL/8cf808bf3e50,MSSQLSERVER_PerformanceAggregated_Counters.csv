@@ -75,4 +75,3 @@ ServerName	DatabaseName	DatabaseFileName	FileType	TimeDataCollected	CounterName	
 8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FWL	Occurence	18	
 8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FWL	Variance	0	
 8cf808bf3e50	MyWebAPIDB	/var/opt/mssql/data/MyWebAPIDB_log.ldf	LOG	15/08/2022 17:01	FWL	Max	0	
-								
