@@ -1,2 +1,3 @@
 [submodule "NatureWebsite"]
+        path = NatureWebsite
 	url = https://github.com/LukeES23/NatureWebsite.git
