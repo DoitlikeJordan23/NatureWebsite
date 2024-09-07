@@ -1,3 +1,7 @@
 [submodule "NatureWebsite"]
         path = NatureWebsite
 	url = https://github.com/LukeES23/NatureWebsite.git
+
+[submodule "Library/Group Containers/UBF8T346G9.OneDriveStandaloneSuite/OneDrive.noindex/OneDrive/Desktop/Software Developer/Final project/Nature API/NatureWebsite/AngularJS/connector-angular-app/node_modules/NatureWebsite"]
+        path = Library/Group Containers/UBF8T346G9.OneDriveStandaloneSuite/OneDrive.noindex/OneDrive/Desktop/Software Developer/Final project/Nature API/NatureWebsite/AngularJS/connector-angular-app/node_modules/NatureWebsite
+        url = https://github.com/LukeES23/NatureWebsite.git
