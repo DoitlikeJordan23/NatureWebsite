@@ -28,10 +28,10 @@
           <section
             class="main-nav-link:link, main-nav-link:visited, main-nav-link:hover, main-nav-link:active, main-nav-link.nav-cta:hover, main-nav-link.nav-cta:active">
             <ul>
-              <li><a href="index.html" class="link-list1">Home</a></li>
-              <li><a href="aboutus.html" class="link-list1">About Us</a></li>
-              <li><a href="discussions.html" class="link-list1">Discussions</a></li>
-              <li><a href="ratings.html" class="link-list1">Ratings</a></li>
+              <li><a href="home/home.component.html" class="link-list1">Home</a></li>
+              <li><a href="about-us/about-us.component.html" class="link-list1">About Us</a></li>
+              <li><a href="discussions/discussions.component.html" class="link-list1">Discussions</a></li>
+              <li><a href="ratings/ratings.component.html" class="link-list1">Ratings</a></li>
             </ul>
           </section>
         </div>
@@ -298,22 +298,22 @@
         <form action="#"
           onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
             <label for="agree">Checkbox: </label>
-            <input type="checkbox" name="checkbox" value="check" id="agree"> <p class="agree-p">By clicking you <br> agree to the <div class="p-emphasis">Terms <br> and Conditions</div></p>
-            
+            <input type="checkbox" name="checkbox" value="check" id="agree"> <p class="agree-p">By clicking you <br> agree to the <div class="p-emphasis">Terms <br> and Conditions</div>
+
         </form><br>
         <button class="signin-Register-2" type="button" onclick="myButton.click()" target="_blank"><a href="#">Register</a></button><br>
       </section>
-      
+
       <section class="sign-in">
         <h2>Sign In</h2>
         <form class="register-form-1" action="signin.php" method="post">
           <input type="text" class="form-control" name="username" placeholder="Username" required><br>
-          <input class="register-form" type="password" name="password" placeholder="Password" required></br>
+          <input class="register-form" type="password" name="password" placeholder="Password" required><br>
         </form><br>
         <button class="signin-Register" type="button" onclick="myButton.click()" target="_blank"><a href="#">Sign In</a></button>
       </section>
     </main>
-    
+
     <footer>
       <section id="footer-newsletter">
         <img src="img/envelope.svg" class="icon-env" alt="Envelope"/>
@@ -331,11 +331,11 @@
           <li><img src="img/instagram-logo.svg" class="icons" alt="instagram" /></li>
         </ul>
       </section>
-      <secion class="copyright">
+      <section class="copyright">
         <p class="copyright">
         Copyright &copy; TechMastery 2025, All rights reserved.
         </p>
-      </secion>
+      </section>
     </footer>
   </body>
 </html>
